@@ -1,18 +1,22 @@
+import random
+# Lists for random choices
+measures_of_time = ["days", "hours", "weeks", "months", "years", "seconds"]
+parts_of_body = ["arm", "leg", "head", "nose", "finger", "toe", "ear", "eye"]
 def madlibsgame1():
 
     number = input("enter number:")
-    measureoftime = input("enter measure of time:")
+    measureoftime = random.choice(measures_of_time)  # Randomly choose a measure of time
     modeoftransportation = input("Mode of Transportation:")
     adjective = input("enter an adjective:")
     adjective2 = input("enter an adjective:")
     noun = input("enter a noun:")
     color = input("enter a color:")
-    partofthebody  = input("enter a  part of the body:")
+    measureoftime = random.choice(measures_of_time)  # Randomly choose a measure of time
     verb = input("enter a verb:")
     number2 = input("enter  number:")
     noun2 = input("enter a noun:")
     noun3 = input("enter a noun:")
-    partofthebody2 = input("enter a  part of body:")
+    partofthebody2 = random.choice(parts_of_body)  # Randomly choose a part of the body
     noun4 = input("enter a noun:")
     adjective3 = input("enter an adjective:")
     sillyword = input("enter a silly word:")
@@ -43,7 +47,7 @@ def madlibsgame2():
     verb3 = input("enter a verb ending in ing:")
     adverb = input("enter an adverb ending in ly:")
     number = input("enter number:")
-    measureoftime = input("enter measure of time:")
+    measureoftime = random.choice(measures_of_time)  # Randomly choose a measure of time
     sillyword = input("enter a silly word:")
     noun2 = input("enter a noun:")
 
@@ -76,7 +80,7 @@ def madlibsgame3():
     adjective4 = input("enter an adjective:")
     plural_noun2 = input("enter plural noun:")
     number = input("enter number:")
-    measureoftime = input("enter measure of time:")
+    measureoftime = random.choice(measures_of_time)  # Randomly choose a measure of time
     verb = input("enter a verb ending in ing:")
     adjective5 = input("enter an adjective:")
     noun3 = input("enter a noun:")
