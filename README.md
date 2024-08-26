@@ -7,4 +7,3 @@
 
 
 ## I THINK YOU WILL ENJOY IT!!!
-![Alt text](../pythonmadlibs.jpg)
